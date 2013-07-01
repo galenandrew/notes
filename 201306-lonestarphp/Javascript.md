@@ -5,7 +5,7 @@
 @deck speakerdeck.com/jcaraouth
 
 ## Misc
-- Wat? (link)[http://destroyallsoftware.com/talks/wat]
+- Wat? [link](http://destroyallsoftware.com/talks/wat)
 
 ## Scope (`vars` and `variables`)
 **Global** and **Function**
@@ -57,7 +57,7 @@ magicCounter = {
 - Javascript Patterns
 
 ### sites
-- watchmecode.net (link)[http://crth.net/jsfundamentals]
+- watchmecode.net [link](http://crth.net/jsfundamentals)
 
 ## Recap
 1. Avoid using global vars inside function scope
