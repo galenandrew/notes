@@ -39,6 +39,7 @@ NOTE: Manually managing a virtual machine is error prone and not easily replacea
 ### How Puppet Works
 - Uses DSL (domain specific language), i.e. its own language
 - `./default.pp` defines puppet configuration
+
 Basic File/Folder Structure
 ```
 Vagrantfile
@@ -48,14 +49,15 @@ manifests/default.pp
 ### Modules
 - Puppet modules are similar to PHP libraries
 - Small packages of code that do things
+
 Example:
 ```
 apache::vhost { 'puphpet':
-	server_name   => 'puphpet.dev',
-	serveraliases => ['www.puphpet.dev'],
-	docroot       => '/var/www/puphpet.dev/web',
-	port          => '80',
-	priority      => '1'
+    server_name   => 'puphpet.dev',
+    serveraliases => ['www.puphpet.dev'],
+    docroot       => '/var/www/puphpet.dev/web',
+    port          => '80',
+    priority      => '1'
 }
 ```
 
