@@ -71,7 +71,7 @@ apache::vhost { 'puphpet':
 …
 
 ### Misc
-- **Example 42**: A guy that creates custom puppet modules/classes
+- **[Example42](http://www.example42.com)**: A guy that creates custom puppet modules/classes
 
 ## PuPHPet
 *A GUI tool that creates custom Puppet configuration manifests*
