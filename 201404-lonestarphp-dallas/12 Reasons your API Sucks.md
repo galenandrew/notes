@@ -14,7 +14,7 @@ coupon code: lsp14 (10% off)
 ## DX (DevEx, Developer Experience)
 Developer Experience is to Developers as User Experience is to Users
 
-> "Don't make me Think!"
+>> "Don't make me Think!"
 - The faster you can get someone started the more likely you are to win!
 
 ## Love at first Byte!
@@ -29,7 +29,7 @@ Developer Experience is to Developers as User Experience is to Users
 	- Example: **Marvel**
 
 ### 2. Incomplete/Wrong Documentation
-> Helper Documentation != API Documentation
+>> Helper Documentation != API Documentation
 
 ### 3. "Getting Started" Code
 - Provide sample code to get API users started
@@ -43,8 +43,8 @@ Developer Experience is to Developers as User Experience is to Users
 - SOAP is not very discoverable
 - difficult to crawl/discover available resources
 
-> REST is like borrowing $10 from a friend
-> SOAP is like a mortgage
+>> REST is like borrowing $10 from a friend
+>> SOAP is like a mortgage
 
 ## Adoption
 ### Who is the API for?
@@ -53,7 +53,7 @@ Developer Experience is to Developers as User Experience is to Users
 - Where does the API fit into their business?
 	- aka _Is it bolted on or a key part of the company?_
 
-> Twilio makes money when you use their service.
+>> Twilio makes money when you use their service.
 _The faster developers can use the API, the faster Twilio makes money_
 
 ### 6. Illogical/Inconsistencies
@@ -65,17 +65,17 @@ _The faster developers can use the API, the faster Twilio makes money_
 	- What problem(s)/task(s) does it make simple?
 	- What do you want to do?
 
-> Define interactions
+>> Define interactions
 
 **Sorting Cards (ecom)**
 - Steps (add to cart, update qty's, etc)
 - Participants (user, storefront, merchant/payment gateway)
 - Groupings (logical groupings)
 
-> CRUD is simply mapping resources to the existing Data Model. Instead, map resources to business steps/logic to make it more useful
+>> CRUD is simply mapping resources to the existing Data Model. Instead, map resources to business steps/logic to make it more useful
 
 ### 8. Numerous Approaches
-> Swiss Army Knife
+>> Swiss Army Knife
 When there are multiple ways to do something, you are making it unnecessarily difficult/complicated for your API users.
 One definitive answer simplifies things.
 
@@ -87,7 +87,7 @@ One definitive answer simplifies things.
 
 ## Day To Day Operations
 ### 11. Error Messages
-> 404: "There was an error"
+>> 404: "There was an error"
 - Make logical and helpful error codes
 - Make response action and response codes consistent with proper response (don't send a 200 code for an error)
 
@@ -95,7 +95,7 @@ One definitive answer simplifies things.
 - Integrating error codes allows you to "extend" where HTTP "falls off" (404 just kind of drops off...there was an error, but why)
 - Allows you to pass back really detailed error messages
 
-> Don't rebuild HTTP
+>> Don't rebuild HTTP
 
 ### 12. Logging and Debugging
 - Runscope (sits b/w "you" and the API and records everything in between)
