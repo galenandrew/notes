@@ -58,4 +58,4 @@ Continuation of series on Node and RESTful APIs.
 
 ## Questions
 - How to handle versioning in HATEOAS?
-> Answer: Restify handles this nicely with ACCEPT-VERSION headers
+    - Answer: Restify handles this nicely with ACCEPT-VERSION headers via [Versioned Routes](http://mcavage.me/node-restify/#Routing)
