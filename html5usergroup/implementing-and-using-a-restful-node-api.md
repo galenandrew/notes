@@ -1,6 +1,6 @@
 # Implementing and Using a RESTful Node API (Part 2)
-@speaker Eric Sowell @mallioch eric.sowell@gmail.com
-@date 2014-06-18
+- @speaker Eric Sowell @mallioch eric.sowell@gmail.com
+- @date 2014-06-18
 
 ## Overview
 Continuation of series on Node and RESTful APIs.
