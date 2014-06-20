@@ -1,6 +1,7 @@
 # Implementing and Using a RESTful Node API (Part 2)
 - @speaker Eric Sowell @mallioch eric.sowell@gmail.com
 - @date 2014-06-18
+- [Presentation Deck & Sample Code](https://github.com/Mallioch/Presentations/tree/master/2014_6_18__html5ug_intro_to_node_and_rest_part_2)
 
 ## Overview
 Continuation of series on Node and RESTful APIs.
