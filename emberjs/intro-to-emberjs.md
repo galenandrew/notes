@@ -1,5 +1,12 @@
 # Introduction to Ember.js
+
 @date 2014-08-18
+
+@slides https://speakerdeck.com/emberdallas/introduction-to-ember-dot-js
+
+@video https://www.youtube.com/watch?v=M6eiWKzbn-A&feature=youtu.be
+
+@code https://github.com/notmessenger/introToEmberDemo
 
 ## Speakers
 - **Jeremy Brown**
