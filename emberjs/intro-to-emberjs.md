@@ -24,7 +24,7 @@
 - Sometimes perceived as difficult to learn
 - Well organized
 
-## Parts of Ember
+## Core Concepts
 - Model
 - Routes
 - Templates
@@ -66,6 +66,8 @@
 	- …components
 
 ## Views
+> The role of the view in an Ember.js application is to translate primitive browser events into events that have meaning to your application.
+
 _YOU DO NOT NEED TO HAVE A VIEW_
 - Represent the visual parts of your application that the user can see in the browser
 - Associated with a controller, a handlebars template and a route
