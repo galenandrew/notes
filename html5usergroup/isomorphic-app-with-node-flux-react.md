@@ -2,6 +2,7 @@
 - @event HTML5 Meetup
 - @date 2014-01-21
 - @speaker Neil Duffy @conceptualitis
+- @code https://github.com/conceptualitis/weather-example
 
 _No slides…live coding demo_
 
