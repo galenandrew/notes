@@ -47,7 +47,7 @@ Continuation of series on Node and RESTful APIs.
 - `body-parser` - NPM module, this only handles urlencoded and json bodies.
 - Resify -
 - Charles (HTTP Proxy) - application to proxy all http requests
-- [httpstatuscod.es](http://httpstatuscod.es) - great list of HTTP status codes and their meanings
+- [httpstatus.es](http://httpstatus.es) - great list of HTTP status codes and their meanings
 - [Seven Databases in Seven Weeks](http://pragprog.com/book/rwdata/seven-databases-in-seven-weeks)
 - [Seven Languages in Seven Weeks](http://pragprog.com/book/btlang/seven-languages-in-seven-weeks)
 - UnderscoreJS
