@@ -94,3 +94,151 @@ _…absolutely amazing!!…_
 > If you think to yourself, "I wish I had React to manage functionality within my component", it's probably too _big_ to be a Web Component
 
 ------------------------------------
+
+# Immutable Data & React
+- Lee Byron @leeb
+
+## Persistent Immutable Data Structures
+- Immutable: Once you create one, you can never change it
+- Persistant: Does not mutate, remains unchanged
+
+_example of pushing to a list…clone original, add to, return new_
+
+- They work because of structural sharing
+
+## Interface vs Implementation
+- DAG: Directed Acyclic Graph
+
+### Trie (reTrieve)
+- Index Trie
+    - bit shifting, hops, and look ups…eg `list.get(141)`
+- Hash Trie
+    -
+
+> Implementations are *Tries* and Interfaces are *Lists* and *Maps*
+
+## People to Research
+- J.R. Lickliter (sp?)
+- Alan Kay
+- Phil Bagwell
+- Rich Hickey
+
+## Why, What problems does it solve?
+- Multi-threaded…
+
+**`Object.observe` (will be in ES7)**
+
+_Memoization_
+
+> Flux store is an identity, …
+
+------------------------------------
+
+# Beyond the DOM: How Netflix plans to enhance your television experience
+- Jafar Husain
+
+# 3 things you don't know about Netflix
+1. Netflix loves JS! (wants to be wherever you are)
+2. Super secret TV Platform – Gibbon vs Webkit (3 UIs – Mobile, Web, TV)
+3. Love React.js because of Performance and Simplicity
+
+------------------------------------
+
+# Scalable Data Visualization
+- Zach Nation @reverius42 @znation
+- Sample / Demo https://github.com/znation/scalable-data-visualization
+
+> Humans are really good at identifying visual patterns
+
+## GraphLab Create (Dato)
+- https://dato.com/products/create/docs/graphlab.canvas.html
+
+## Challenges with Visualizing Raw Data
+- Condensing data to a smaller set of visual elements
+- maintaining a high level of …
+
+## Data Visualization Pipeline
+- D3.js
+- React.js
+
+## Principles
+- Compute close to the data
+
+## "Flux" on the server
+- replaced Dispatcher with XHR/WebSocket
+- replaced Store with Statefull Server
+
+## Scalable Aggregation
+- Binning
+- Constant(ish) memory complexity
+- Produce results incrementally (streaming)
+- Send results to client periodically
+
+## Visualize the Data
+- D3.js has multiple "pure functions" that work nicely with React Render
+- 3 methods do not work well because they interact with the DOM
+
+## Render Target
+- SVG
+- Cangas
+- [React-ART](https://github.com/reactjs/react-art)
+- more…
+
+### Considerations
+- Number of visual elements
+- Animation
+- Level of interactivity
+- Browser support
+
+### SVG vs Canvas
+
+**SVG**
+- CSS Styles
+- CSS Animations (+ react transitions)
+- DOM Events (+ react events)
+
+**Both**
+- 1000 or fewer visual elements
+
+**Canvas**
+- More than 1000 visual elements
+
+## Dato Visualization Architecture (GraphLab Canvas)
+- 100% React driven
+- > 1 TB of data in the browser with little to know
+
+------------------------------------
+
+# React Refracted (a discussion about _Om_)
+- David Nolen
+
+> Unfamiliar ≠ Complex
+
+> Big ≠ Complex
+
+_Brunneleschi Dome…bricks herringbone pattern_
+
+## React as a _platform_
+- Platform: plan of action, scheme, or design
+- A good platform allows you to build something common as well as something amazing…that no one has seen before
+
+> **Mutability** should be an implementation detail
+
+- React works with mutable data AND immutable data
+
+## Om
+- Started off as an experiment
+- Inspired by paper "Worlds: controlling the scope of side effects" by Alan Kay, and others (Viewpoints Research Institute)
+
+### Concepts / Objectives
+- Immutable app state, full stop
+- Async rendering via `requestAnimationFrame`
+- Jump to any point in time with respect to application state
+- Modularity
+
+> This is software…there will probably 4-5 different solutions that address different dimensions of the problem.
+
+## Demo of Global Immutable App State with CircleCI
+- http://youtu.be/5yHFTN-_mOo
+
+------------------------------------
