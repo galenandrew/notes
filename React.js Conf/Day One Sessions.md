@@ -1,9 +1,11 @@
 # Day One Sessions
 
+------------------------------------
+
 ## Keynote
 - Tom Occhino
 
-> React Native
+> Announced React Native
 
 ------------------------------------
 
