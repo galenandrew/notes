@@ -2,57 +2,57 @@
 
 ------------------------------------
 
-## Keynote
+# Keynote
 - Tom Occhino
 
 > Announced React Native
 
 ------------------------------------
 
-## Tweak your page in real time, without leaving the comfort of your editor
+# Tweak your page in real time, without leaving the comfort of your editor
 - Speaker: Brenton Simpson @appsforartists
 
-### Links
+## Links
 - http://webpack.github.io
 - http://gaearon.github.io/react-hot-loader/
 - https://github.com/appsforartists/ambidex
 
 ------------------------------------
 
-## Unlocking the structure of your React applications with the AST
+# Unlocking the structure of your React applications with the AST
 - Gurdas Nijor @gnijor
 
-### Webpack
+## Webpack
 - Module Bundler
 - Loaders
 
 ------------------------------------
 
-## Data fetching for React applications at Facebook
+# Data fetching for React applications at Facebook
 - Daniel Schafer @dlschafer and Jing Chen @jingc
 
-### Flux
+## Flux
 > One way flow of data to minimize interactions with it.
 
-### GraphQL
+## GraphQL
 - Query language that Facebook uses to define data requirements and define the response schema
 
-### Relay
+## Relay
 - Next evolution of Flux architecture
 
 ------------------------------------
 
-## Channels and Communicating Sequential Processes
+# Channels and Communicating Sequential Processes
 - James Long
 
-### Misc / Research
+## Misc / Research
 - **js-csp**
 - Concepts of channels/streams vs promises (in order to use promises you have to continually wrap them in promises)
 - Generators
 
 ------------------------------------
 
-## react-router increases your productivity
+# react-router increases your productivity
 - Michael Jackson @mjackson
 - Ryan Florence @rpflorence
 
@@ -67,13 +67,13 @@ https://twitter.com/mjackson/status/466286956989542400
 
 - URLs should be part of your design process
 
-### Transitions
+## Transitions
 - When the URL does change…what happens
 - Example: https://github.com/rackt/react-router/blob/master/examples/auth-flow/app.js
 
 ------------------------------------
 
-## The future of JavaScript layout systems
+# The future of JavaScript layout systems
 - Pete Hunt @petehunt @floydophone
 
 **Full Stack Flux**
@@ -89,31 +89,31 @@ _Turning the Database Inside Out_ - A talk by Martin…?
 
 ------------------------------------
 
-## Making your app fast with high-performance components
+# Making your app fast with high-performance components
 - Jason Bonta @jbonta
 
 _React is made up of **props** and **states**_
 
-### Pure Components
+## Pure Components
 - Render only depends on props and state
 
-### Re-renders
+## Re-renders
 - `shouldComponentUpdate`
 - **PureRender** mixin (prevents component from re-rendering as a result of it's parent…insulates the component)
 
-### Data Comparability
+## Data Comparability
 - Easy to compare simple data types
 - Retail Store Model (Returning a product…not opened)
 - Immutable data makes comparing complex data types easy `ref1 === ref2`
 
-### Loosely coupled component hierarchy
+## Loosely coupled component hierarchy
 
 
-### Containers vs Components
+## Containers vs Components
 - Containers talk to store
 - Components render markup
 
-### Basic concepts for optimization
+## Basic concepts for optimization
 1. Purity
     - Use `shouldcomponentupdate`
 2. Data Comparability
@@ -126,12 +126,12 @@ _React is made up of **props** and **states**_
     - should exercise independence
 
 
-### FixedDataTable
+## FixedDataTable
 facebook.github.io/fixed-data-table
 
 ------------------------------------
 
-## React.js & i18n
+# React.js & i18n
 - Eric Ferraiuolo @ericf
 
 - `Intl.NumberFormat`
@@ -142,10 +142,10 @@ https://github.com/andyearnshaw/Intl.js/
 
 ------------------------------------
 
-## Hype!
+# Hype!
 - Ryan Florence @rpflorence
 
-### Demos
+## Demos
 - https://github.com/rpflorence/react-magic-move
 - https://github.com/rackt/react-modal
 - http://react.rocks/example/react-router-mega-demo
