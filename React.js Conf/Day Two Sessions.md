@@ -242,3 +242,7 @@ _Brunneleschi Dome…bricks herringbone pattern_
 - http://youtu.be/5yHFTN-_mOo
 
 ------------------------------------
+
+# Codecademy's Approach to Component Communication
+- Bonnie Eisenman @brindelle
+- Slides: https://docs.google.com/presentation/d/1b7sZOqBuTnTTKP7Rk1xgbMspCsFZBR2mzsHUF7Zd62g/preview?sle=true&slide=id.g61b77bb41_034
